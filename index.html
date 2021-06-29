@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="CapstoneWebsite.css">
+	<title>CyberCrime</title> <!-- draft title -->
+</head>
+<body>
+
+	<div class="header" id="myHeader">
+		<br><br><br>
+		<h1 align="center">
+			Tips to avoid Cyber Attacks
+		</h1>
+		<hr color="darkred" size="10px" id="line">
+ 	</div>
+
+<div class="content">
+
+	<h2>
+		What is Cybercrime?
+	</h2>
+	
+	<p id="first-paragraph">
+		Cybercrime is any crime that is committed online. Such crimes include: identity theft, cyber-stalking, internet fraud. Any crime like sexual harassment done through the internet is also considered a cybercrime. Elderlies are the most vulnerable to a cyber attack as they would easily trust someone they've met online. Cyber criminals espicifically target these individuals as they are the easiest and can net them more money. In fact, according to <b>IC3</b>(<i>Internet Crime Complaint Center</i>) almost 40% of the victims are over 50 years old. They also lost the most money to the scammers.
+	</p>
+
+	<img id="cyber-image" src="https://wwwassets.rand.org/content/rand/pubs/research_reports/RR2704/jcr:content/par/teaser.aspectfit.0x430.jpg/1573226259538.jpg" alt="A cyber crime image" >
+	
+	<div id="myModal" class="modal">
+
+	  <!-- The Close Button -->
+	  <span class="close">&times;</span>
+
+	  <!-- Modal Content (The Image) -->
+	  <img class="modal-content" id="img01">
+
+	  <!-- Modal Caption (Image Text) -->
+	  <div id="caption"></div>
+	</div>
+
+
+	<h2>
+		How to avoid being a victim to a cybercrime?
+	</h2>
+
+	<ul>
+		<li><b>Use strong password</b></li>
+			<ul>
+				<li>Be sure not to use your name, your dog's name, your birthdate, or anything that can easily be guessed as a password.</li>
+				<li>Don't use the same pasword in different accounts, especially on important ones.</li>
+			</ul>
+		<li><b>Do not trust easily</b></li>
+			<ul>
+				<li>Cyber criminals tend to pose as a person that is reliable and can be trusted.</li>
+				<li>Never give your important credentials like passwords to anyone.</li>
+			</ul>
+		<li><b>Think before you click</b></li>
+			<ul>
+				<li>Avoid clicking on links appearing in spam emails.</li>
+				<li>Avoid visiting websites with suspicious-looking URLs</li>
+			</ul>
+	</ul>
+
+	<img id="password" src="https://images.ctfassets.net/lzny33ho1g45/password-security-p-img/72f3ab78724796a0990219ee8ed495c7/file.png?w=1520&fm=jpg&q=30&fit=thumb&h=760" alt="A password image">
+
+	<div id="myModal" class="modal">
+
+	  <!-- The Close Button -->
+	  <span class="close">&times;</span>
+
+	  <!-- Modal Content (The Image) -->
+	  <img class="modal-content" id="img01">
+
+	  <!-- Modal Caption (Image Text) -->
+	  <div id="caption"></div>
+	</div>
+
+	<h2>
+		What to do when you became a victim?
+	</h2>
+
+	<p>If you believe that you've been scammed or a victim of a fraud/identity theft, immediately report it to the police. Even if the incident seems minor, because this might help the authorities to their future investigations. You can also directly report to the NBI regarding to the incident. The following will also be useful to you in case you became a victim to such crimes:</p>
+
+	<ul>
+		<li><b>Immediately contact companies and/or banks conected to the fraud.</b></li>
+			<ul>
+				<li>Do not panic and explain to them the situation you are in.
+				</li>
+				<li>Let them know that a fraud happened and request for your credit reports.</li>
+			</ul>
+		<li><b>Learn and spread the word.</b></li>
+			<ul>
+				<li>Learn from that incident so that you can prepare in case something like that happens again in the future.</li>
+				<li>Teach your family members specially children and grandparents who are frequently using social media about the dangers and share your story about the incident, so that they'll be able to avoid it.</li>
+			</ul>
+	</ul>
+
+	<img id="gadget" src="https://miro.medium.com/max/710/1*KlOgwnGcKAW9mZHUsu4yjg.jpeg" alt="A kid and his grandparents using a gadget.">
+
+	<div id="myModal" class="modal">
+
+	  <!-- The Close Button -->
+	  <span class="close">&times;</span>
+
+	  <!-- Modal Content (The Image) -->
+	  <img class="modal-content" id="img01">
+
+	  <!-- Modal Caption (Image Text) -->
+	  <div id="caption"></div>
+	</div>
+
+</div>
+
+	<br><br>
+	<hr>
+
+	<div class="contact">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<a href="https://www.facebook.com/mauiazryl.lomuntad.5" class="fa fa-facebook"></a>
+		<a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="fa fa-google"></a>
+		<a href="https://www.youtube.com/channel/UCN_Zsv9yhgrgpqnK1zO3rVw" class="fa fa-youtube"></a>
+	</div>
+
+	<script>
+		//Cyber Image
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = document.getElementById("cyber-image");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  // captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+       
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+		//end of Cyber image
+
+
+		//Password image
+		var modal = document.getElementById("myModal");
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = document.getElementById("password");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  // captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+       
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+		//end of password image
+
+		//Gadget
+		// Get the modal
+		var modal = document.getElementById("myModal");
+
+		// Get the image and insert it inside the modal - use its "alt" text as a caption
+		var img = document.getElementById("gadget");
+		var modalImg = document.getElementById("img01");
+		var captionText = document.getElementById("caption");
+		img.onclick = function(){
+		  modal.style.display = "block";
+		  modalImg.src = this.src;
+		  captionText.innerHTML = this.alt;
+		}
+
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+       
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() { 
+		  modal.style.display = "none";
+		}
+		//end of gadget image
+	</script>
+
+</body>
+</html>
