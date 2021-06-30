@@ -152,6 +152,15 @@ body {
 	size: 10px;
 }
 
+.myInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -25px;
+  font-family: “Playfair Display”, “Didot”, "Times New Roman", Times, serif;
+  color: dimgray;
+}
+
 .contact {
   display: flex;
   justify-content: center;
